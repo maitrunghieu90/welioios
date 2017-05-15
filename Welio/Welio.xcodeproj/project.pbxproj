@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1904C16C1EB96D2C0093BC44 /* HistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1904C16B1EB96D2C0093BC44 /* HistoryVC.swift */; };
+		191398E11E9DD3100001BC39 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 191398DF1E9DD3100001BC39 /* ViewController.xib */; };
+		191398E31E9DD6FB0001BC39 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191398E21E9DD6FB0001BC39 /* NotificationVC.swift */; };
+		191F7C5C1E9F1785001A7FB9 /* TermsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F7C5B1E9F1785001A7FB9 /* TermsVC.swift */; };
+		191F7C5E1E9F1794001A7FB9 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F7C5D1E9F1794001A7FB9 /* SignInVC.swift */; };
+		191F7C601E9F17B6001A7FB9 /* AppointmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F7C5F1E9F17B6001A7FB9 /* AppointmentVC.swift */; };
+		191F7C631E9F1B84001A7FB9 /* CellAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F7C621E9F1B84001A7FB9 /* CellAppointment.swift */; };
+		191F7C711E9F524B001A7FB9 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C671E9F524B001A7FB9 /* OpenSans-Bold.ttf */; };
+		191F7C721E9F524B001A7FB9 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C681E9F524B001A7FB9 /* OpenSans-BoldItalic.ttf */; };
+		191F7C731E9F524B001A7FB9 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C691E9F524B001A7FB9 /* OpenSans-ExtraBold.ttf */; };
+		191F7C741E9F524B001A7FB9 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C6A1E9F524B001A7FB9 /* OpenSans-ExtraBoldItalic.ttf */; };
+		191F7C751E9F524B001A7FB9 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C6B1E9F524B001A7FB9 /* OpenSans-Italic.ttf */; };
+		191F7C761E9F524B001A7FB9 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C6C1E9F524B001A7FB9 /* OpenSans-Light.ttf */; };
+		191F7C771E9F524B001A7FB9 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C6D1E9F524B001A7FB9 /* OpenSans-LightItalic.ttf */; };
+		191F7C781E9F524B001A7FB9 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C6E1E9F524B001A7FB9 /* OpenSans-Regular.ttf */; };
+		191F7C791E9F524B001A7FB9 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C6F1E9F524B001A7FB9 /* OpenSans-Semibold.ttf */; };
+		191F7C7A1E9F524B001A7FB9 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 191F7C701E9F524B001A7FB9 /* OpenSans-SemiboldItalic.ttf */; };
+		191F7C7C1E9F5B11001A7FB9 /* AppointmentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F7C7B1E9F5B11001A7FB9 /* AppointmentDetailVC.swift */; };
+		193F0A051EA46322001DF2AE /* MarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F0A041EA46322001DF2AE /* MarqueeLabel.swift */; };
+		193F0A081EA467DB001DF2AE /* SideMenuRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F0A071EA467DB001DF2AE /* SideMenuRootController.swift */; };
+		193F0A0C1EA476C9001DF2AE /* SideMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193F0A0B1EA476C9001DF2AE /* SideMenuVC.swift */; };
+		193F0A141EA4C50D001DF2AE /* UIScrollView+BottomRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 193F0A131EA4C50D001DF2AE /* UIScrollView+BottomRefreshControl.m */; };
+		1941B1041E9DE3DB00617B1B /* VerifyCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1941B1031E9DE3DB00617B1B /* VerifyCodeVC.swift */; };
+		195BEE471E9E07A8001BC7E4 /* ChangeMobileNumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195BEE461E9E07A8001BC7E4 /* ChangeMobileNumVC.swift */; };
+		195E29AF1EB1D0BD00D850A3 /* PaypalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29AE1EB1D0BD00D850A3 /* PaypalVC.swift */; };
+		195E29B11EB1D74D00D850A3 /* PaymentDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29B01EB1D74D00D850A3 /* PaymentDetailVC.swift */; };
+		195E29B31EB1E32100D850A3 /* AddPINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29B21EB1E32100D850A3 /* AddPINVC.swift */; };
+		195E29B51EB1E33700D850A3 /* ConfirmPINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29B41EB1E33700D850A3 /* ConfirmPINVC.swift */; };
+		195E29B71EB1EF2900D850A3 /* EnterPINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29B61EB1EF2900D850A3 /* EnterPINVC.swift */; };
+		195E29B91EB1FB2A00D850A3 /* NewPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29B81EB1FB2A00D850A3 /* NewPassVC.swift */; };
+		195E29BB1EB1FB7A00D850A3 /* CodeResetPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29BA1EB1FB7A00D850A3 /* CodeResetPassVC.swift */; };
+		195E29BD1EB1FB8F00D850A3 /* PhoneResetPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195E29BC1EB1FB8F00D850A3 /* PhoneResetPassVC.swift */; };
+		197F02D51EBABE7A00C9F51F /* WCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F02D41EBABE7A00C9F51F /* WCall.swift */; };
+		198AFE0B1E9DB8E100EEAE3B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AFE0A1E9DB8E100EEAE3B /* Common.swift */; };
+		198AFE111E9DBA0B00EEAE3B /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AFE0D1E9DBA0B00EEAE3B /* Define.swift */; };
+		198AFE131E9DBA0B00EEAE3B /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198AFE0F1E9DBA0B00EEAE3B /* WebService.swift */; };
+		198F885F1EA5A6DF001EBAC5 /* CallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198F885E1EA5A6DF001EBAC5 /* CallVC.swift */; };
+		198F88611EA5A6F0001EBAC5 /* VideoCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198F88601EA5A6F0001EBAC5 /* VideoCallVC.swift */; };
+		19905E1F1EB2D13D009206EB /* CellMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19905E1E1EB2D13D009206EB /* CellMenu.swift */; };
+		199552CB1EB328A200DC5C13 /* CellChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199552CA1EB328A200DC5C13 /* CellChat.swift */; };
+		199552CD1EB34B8600DC5C13 /* CellCallChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199552CC1EB34B8600DC5C13 /* CellCallChat.swift */; };
+		199552CF1EB350CA00DC5C13 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199552CE1EB350CA00DC5C13 /* MyProfileVC.swift */; };
+		199552D11EB350DA00DC5C13 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199552D01EB350DA00DC5C13 /* EditProfileVC.swift */; };
+		199552D31EB350E800DC5C13 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199552D21EB350E800DC5C13 /* SettingVC.swift */; };
+		19AD750A1EA0671000488D1E /* CompleteCallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD75091EA0671000488D1E /* CompleteCallVC.swift */; };
+		19AD75121EA0AB0E00488D1E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19AD75141EA0AB0E00488D1E /* Localizable.strings */; };
+		19AD75181EA0D5AE00488D1E /* WPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD75171EA0D5AE00488D1E /* WPatient.swift */; };
+		4F9DBFB0045FF930848A0C8A /* Pods_Welio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C030C79A8F2341F5942312 /* Pods_Welio.framework */; };
+		C621540E1EBB27E700D0D7AA /* Pods_Welio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C621540D1EBB27E700D0D7AA /* Pods_Welio.framework */; };
+		C6221FAC1E9D3094003EADB4 /* AlreadyMailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6221FAB1E9D3094003EADB4 /* AlreadyMailVC.swift */; };
+		C6221FAE1E9D3649003EADB4 /* ChoosePhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6221FAD1E9D3649003EADB4 /* ChoosePhotoVC.swift */; };
+		C65241921EB9D2ED00AFF6EC /* WMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65241911EB9D2ED00AFF6EC /* WMessage.swift */; };
+		C674F1731E9D23B300B0B689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1721E9D23B300B0B689 /* AppDelegate.swift */; };
+		C674F1781E9D23B300B0B689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C674F1761E9D23B300B0B689 /* Main.storyboard */; };
+		C674F17A1E9D23B300B0B689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C674F1791E9D23B300B0B689 /* Assets.xcassets */; };
+		C674F17D1E9D23B300B0B689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C674F17B1E9D23B300B0B689 /* LaunchScreen.storyboard */; };
+		C674F1881E9D23B300B0B689 /* WelioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1871E9D23B300B0B689 /* WelioTests.swift */; };
+		C674F1931E9D23B300B0B689 /* WelioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1921E9D23B300B0B689 /* WelioUITests.swift */; };
+		C674F1C81E9D245B00B0B689 /* MKButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1BC1E9D245B00B0B689 /* MKButton.swift */; };
+		C674F1C91E9D245B00B0B689 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1BD1E9D245B00B0B689 /* MKColor.swift */; };
+		C674F1CA1E9D245B00B0B689 /* MKImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1BE1E9D245B00B0B689 /* MKImageView.swift */; };
+		C674F1CB1E9D245B00B0B689 /* MKLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1BF1E9D245B00B0B689 /* MKLabel.swift */; };
+		C674F1CC1E9D245B00B0B689 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1C01E9D245B00B0B689 /* MKLayer.swift */; };
+		C674F1CD1E9D245B00B0B689 /* MKTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1C11E9D245B00B0B689 /* MKTableViewCell.swift */; };
+		C674F1CE1E9D245B00B0B689 /* MKTextField+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1C21E9D245B00B0B689 /* MKTextField+Category.swift */; };
+		C674F1CF1E9D245B00B0B689 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1C31E9D245B00B0B689 /* MKTextField.swift */; };
+		C674F1D01E9D245B00B0B689 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1C61E9D245B00B0B689 /* HomeVC.swift */; };
+		C674F1D11E9D245B00B0B689 /* ProfileSignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C674F1C71E9D245B00B0B689 /* ProfileSignUpVC.swift */; };
+		C6A68A901EA21F72006C4C3C /* WDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A68A8F1EA21F72006C4C3C /* WDoctor.swift */; };
+		C6A68A921EA22500006C4C3C /* WClinic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A68A911EA22500006C4C3C /* WClinic.swift */; };
+		C6A68A941EA22941006C4C3C /* WAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A68A931EA22941006C4C3C /* WAppointment.swift */; };
+		C6C855D01EBFFFBD0023E51F /* ChatHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C855CF1EBFFFBD0023E51F /* ChatHandler.m */; };
+		C6C855D21EC00CDA0023E51F /* KMPlaceholderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C855D11EC00CDA0023E51F /* KMPlaceholderTextView.swift */; };
+		C6C855D91EC012EF0023E51F /* UIViewController+KeyboardAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C855D81EC012EF0023E51F /* UIViewController+KeyboardAnimation.m */; };
+		C6C855DB1EC025E00023E51F /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C855DA1EC025E00023E51F /* RealmManager.swift */; };
+		C6C856351EC052B30023E51F /* Toucan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C856341EC052B30023E51F /* Toucan.swift */; };
+		C6E087F71EAF852D00632FCA /* SfBConversationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E087F61EAF852D00632FCA /* SfBConversationHelper.m */; };
+		C6E087F91EAF867200632FCA /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E087F81EAF867200632FCA /* Utils.swift */; };
+		C6F684F21EC5C1DB00A98B1B /* SkypeForBusiness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6F684F11EC5C1DB00A98B1B /* SkypeForBusiness.framework */; };
+		C6F684F41EC5C1E000A98B1B /* SkypeForBusiness.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6F684F11EC5C1DB00A98B1B /* SkypeForBusiness.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C674F1841E9D23B300B0B689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C674F1671E9D23B300B0B689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C674F16E1E9D23B300B0B689;
+			remoteInfo = Welio;
+		};
+		C674F18F1E9D23B300B0B689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C674F1671E9D23B300B0B689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C674F16E1E9D23B300B0B689;
+			remoteInfo = Welio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C6B0A00F1EA8532800DCB6E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C6F684F41EC5C1E000A98B1B /* SkypeForBusiness.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1904C16B1EB96D2C0093BC44 /* HistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryVC.swift; sourceTree = "<group>"; };
+		191398DF1E9DD3100001BC39 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		191398E21E9DD6FB0001BC39 /* NotificationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		191F7C5B1E9F1785001A7FB9 /* TermsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsVC.swift; sourceTree = "<group>"; };
+		191F7C5D1E9F1794001A7FB9 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		191F7C5F1E9F17B6001A7FB9 /* AppointmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentVC.swift; sourceTree = "<group>"; };
+		191F7C621E9F1B84001A7FB9 /* CellAppointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAppointment.swift; sourceTree = "<group>"; };
+		191F7C671E9F524B001A7FB9 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		191F7C681E9F524B001A7FB9 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		191F7C691E9F524B001A7FB9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		191F7C6A1E9F524B001A7FB9 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		191F7C6B1E9F524B001A7FB9 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		191F7C6C1E9F524B001A7FB9 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		191F7C6D1E9F524B001A7FB9 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		191F7C6E1E9F524B001A7FB9 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		191F7C6F1E9F524B001A7FB9 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		191F7C701E9F524B001A7FB9 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		191F7C7B1E9F5B11001A7FB9 /* AppointmentDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentDetailVC.swift; sourceTree = "<group>"; };
+		193F0A041EA46322001DF2AE /* MarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarqueeLabel.swift; sourceTree = "<group>"; };
+		193F0A071EA467DB001DF2AE /* SideMenuRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuRootController.swift; sourceTree = "<group>"; };
+		193F0A0B1EA476C9001DF2AE /* SideMenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuVC.swift; sourceTree = "<group>"; };
+		193F0A111EA4C50D001DF2AE /* Welio-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Welio-Bridging-Header.h"; sourceTree = "<group>"; };
+		193F0A121EA4C50D001DF2AE /* UIScrollView+BottomRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+BottomRefreshControl.h"; sourceTree = "<group>"; };
+		193F0A131EA4C50D001DF2AE /* UIScrollView+BottomRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+BottomRefreshControl.m"; sourceTree = "<group>"; };
+		1941B1031E9DE3DB00617B1B /* VerifyCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyCodeVC.swift; sourceTree = "<group>"; };
+		195BEE461E9E07A8001BC7E4 /* ChangeMobileNumVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeMobileNumVC.swift; sourceTree = "<group>"; };
+		195E29AE1EB1D0BD00D850A3 /* PaypalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaypalVC.swift; sourceTree = "<group>"; };
+		195E29B01EB1D74D00D850A3 /* PaymentDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentDetailVC.swift; sourceTree = "<group>"; };
+		195E29B21EB1E32100D850A3 /* AddPINVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPINVC.swift; sourceTree = "<group>"; };
+		195E29B41EB1E33700D850A3 /* ConfirmPINVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmPINVC.swift; sourceTree = "<group>"; };
+		195E29B61EB1EF2900D850A3 /* EnterPINVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterPINVC.swift; sourceTree = "<group>"; };
+		195E29B81EB1FB2A00D850A3 /* NewPassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewPassVC.swift; sourceTree = "<group>"; };
+		195E29BA1EB1FB7A00D850A3 /* CodeResetPassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeResetPassVC.swift; sourceTree = "<group>"; };
+		195E29BC1EB1FB8F00D850A3 /* PhoneResetPassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneResetPassVC.swift; sourceTree = "<group>"; };
+		197F02D41EBABE7A00C9F51F /* WCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WCall.swift; sourceTree = "<group>"; };
+		198AFE0A1E9DB8E100EEAE3B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		198AFE0D1E9DBA0B00EEAE3B /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		198AFE0F1E9DBA0B00EEAE3B /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		198F885E1EA5A6DF001EBAC5 /* CallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallVC.swift; sourceTree = "<group>"; };
+		198F88601EA5A6F0001EBAC5 /* VideoCallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCallVC.swift; sourceTree = "<group>"; };
+		19905E1E1EB2D13D009206EB /* CellMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellMenu.swift; sourceTree = "<group>"; };
+		199552CA1EB328A200DC5C13 /* CellChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellChat.swift; sourceTree = "<group>"; };
+		199552CC1EB34B8600DC5C13 /* CellCallChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellCallChat.swift; sourceTree = "<group>"; };
+		199552CE1EB350CA00DC5C13 /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		199552D01EB350DA00DC5C13 /* EditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		199552D21EB350E800DC5C13 /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		19AD75091EA0671000488D1E /* CompleteCallVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteCallVC.swift; sourceTree = "<group>"; };
+		19AD75131EA0AB0E00488D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		19AD75171EA0D5AE00488D1E /* WPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPatient.swift; sourceTree = "<group>"; };
+		26C030C79A8F2341F5942312 /* Pods_Welio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Welio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A2D9C967DA74B479D931A5 /* Pods-Welio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Welio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Welio/Pods-Welio.debug.xcconfig"; sourceTree = "<group>"; };
+		5623BFE5F3E1B938B9D9B35B /* Pods-Welio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Welio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Welio/Pods-Welio.release.xcconfig"; sourceTree = "<group>"; };
+		C621540D1EBB27E700D0D7AA /* Pods_Welio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Welio.framework; path = "Pods/../build/Debug-iphoneos/Pods_Welio.framework"; sourceTree = "<group>"; };
+		C6221FAB1E9D3094003EADB4 /* AlreadyMailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlreadyMailVC.swift; sourceTree = "<group>"; };
+		C6221FAD1E9D3649003EADB4 /* ChoosePhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoosePhotoVC.swift; sourceTree = "<group>"; };
+		C65241911EB9D2ED00AFF6EC /* WMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMessage.swift; sourceTree = "<group>"; };
+		C674F16F1E9D23B300B0B689 /* Welio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Welio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C674F1721E9D23B300B0B689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C674F1771E9D23B300B0B689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C674F1791E9D23B300B0B689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C674F17C1E9D23B300B0B689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C674F17E1E9D23B300B0B689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C674F1831E9D23B300B0B689 /* WelioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C674F1871E9D23B300B0B689 /* WelioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelioTests.swift; sourceTree = "<group>"; };
+		C674F1891E9D23B300B0B689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C674F18E1E9D23B300B0B689 /* WelioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WelioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C674F1921E9D23B300B0B689 /* WelioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelioUITests.swift; sourceTree = "<group>"; };
+		C674F1941E9D23B300B0B689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C674F1BC1E9D245B00B0B689 /* MKButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKButton.swift; sourceTree = "<group>"; };
+		C674F1BD1E9D245B00B0B689 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
+		C674F1BE1E9D245B00B0B689 /* MKImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKImageView.swift; sourceTree = "<group>"; };
+		C674F1BF1E9D245B00B0B689 /* MKLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLabel.swift; sourceTree = "<group>"; };
+		C674F1C01E9D245B00B0B689 /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
+		C674F1C11E9D245B00B0B689 /* MKTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTableViewCell.swift; sourceTree = "<group>"; };
+		C674F1C21E9D245B00B0B689 /* MKTextField+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MKTextField+Category.swift"; sourceTree = "<group>"; };
+		C674F1C31E9D245B00B0B689 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
+		C674F1C61E9D245B00B0B689 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C674F1C71E9D245B00B0B689 /* ProfileSignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSignUpVC.swift; sourceTree = "<group>"; };
+		C6A68A8F1EA21F72006C4C3C /* WDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDoctor.swift; sourceTree = "<group>"; };
+		C6A68A911EA22500006C4C3C /* WClinic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WClinic.swift; sourceTree = "<group>"; };
+		C6A68A931EA22941006C4C3C /* WAppointment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAppointment.swift; sourceTree = "<group>"; };
+		C6C855CE1EBFFFBD0023E51F /* ChatHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatHandler.h; sourceTree = "<group>"; };
+		C6C855CF1EBFFFBD0023E51F /* ChatHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatHandler.m; sourceTree = "<group>"; };
+		C6C855D11EC00CDA0023E51F /* KMPlaceholderTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KMPlaceholderTextView.swift; sourceTree = "<group>"; };
+		C6C855D71EC012EF0023E51F /* UIViewController+KeyboardAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+KeyboardAnimation.h"; sourceTree = "<group>"; };
+		C6C855D81EC012EF0023E51F /* UIViewController+KeyboardAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+KeyboardAnimation.m"; sourceTree = "<group>"; };
+		C6C855DA1EC025E00023E51F /* RealmManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		C6C856341EC052B30023E51F /* Toucan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toucan.swift; sourceTree = "<group>"; };
+		C6E087F51EAF852D00632FCA /* SfBConversationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SfBConversationHelper.h; sourceTree = "<group>"; };
+		C6E087F61EAF852D00632FCA /* SfBConversationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SfBConversationHelper.m; sourceTree = "<group>"; };
+		C6E087F81EAF867200632FCA /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		C6F684F11EC5C1DB00A98B1B /* SkypeForBusiness.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SkypeForBusiness.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C674F16C1E9D23B300B0B689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C621540E1EBB27E700D0D7AA /* Pods_Welio.framework in Frameworks */,
+				4F9DBFB0045FF930848A0C8A /* Pods_Welio.framework in Frameworks */,
+				C6F684F21EC5C1DB00A98B1B /* SkypeForBusiness.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C674F1801E9D23B300B0B689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C674F18B1E9D23B300B0B689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		191F7C611E9F1B66001A7FB9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				191F7C621E9F1B84001A7FB9 /* CellAppointment.swift */,
+				19905E1E1EB2D13D009206EB /* CellMenu.swift */,
+				199552CA1EB328A200DC5C13 /* CellChat.swift */,
+				199552CC1EB34B8600DC5C13 /* CellCallChat.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		191F7C661E9F524B001A7FB9 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				191F7C671E9F524B001A7FB9 /* OpenSans-Bold.ttf */,
+				191F7C681E9F524B001A7FB9 /* OpenSans-BoldItalic.ttf */,
+				191F7C691E9F524B001A7FB9 /* OpenSans-ExtraBold.ttf */,
+				191F7C6A1E9F524B001A7FB9 /* OpenSans-ExtraBoldItalic.ttf */,
+				191F7C6B1E9F524B001A7FB9 /* OpenSans-Italic.ttf */,
+				191F7C6C1E9F524B001A7FB9 /* OpenSans-Light.ttf */,
+				191F7C6D1E9F524B001A7FB9 /* OpenSans-LightItalic.ttf */,
+				191F7C6E1E9F524B001A7FB9 /* OpenSans-Regular.ttf */,
+				191F7C6F1E9F524B001A7FB9 /* OpenSans-Semibold.ttf */,
+				191F7C701E9F524B001A7FB9 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		193F0A031EA46322001DF2AE /* MarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				193F0A041EA46322001DF2AE /* MarqueeLabel.swift */,
+			);
+			path = MarqueeLabel;
+			sourceTree = "<group>";
+		};
+		193F0A061EA467DB001DF2AE /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				193F0A071EA467DB001DF2AE /* SideMenuRootController.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		193F0A0D1EA4C4EA001DF2AE /* BottomRefreshControl */ = {
+			isa = PBXGroup;
+			children = (
+				193F0A121EA4C50D001DF2AE /* UIScrollView+BottomRefreshControl.h */,
+				193F0A131EA4C50D001DF2AE /* UIScrollView+BottomRefreshControl.m */,
+				193F0A111EA4C50D001DF2AE /* Welio-Bridging-Header.h */,
+			);
+			path = BottomRefreshControl;
+			sourceTree = "<group>";
+		};
+		5C29FA9D1E68824A8C6A3FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C621540D1EBB27E700D0D7AA /* Pods_Welio.framework */,
+				26C030C79A8F2341F5942312 /* Pods_Welio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF521F1CCDE76DADF1FE840A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37A2D9C967DA74B479D931A5 /* Pods-Welio.debug.xcconfig */,
+				5623BFE5F3E1B938B9D9B35B /* Pods-Welio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6221FAA1E9D271B003EADB4 /* Support File */ = {
+			isa = PBXGroup;
+			children = (
+				C674F1721E9D23B300B0B689 /* AppDelegate.swift */,
+				C674F1761E9D23B300B0B689 /* Main.storyboard */,
+				C674F1791E9D23B300B0B689 /* Assets.xcassets */,
+				C674F17B1E9D23B300B0B689 /* LaunchScreen.storyboard */,
+				C674F17E1E9D23B300B0B689 /* Info.plist */,
+				191398DF1E9DD3100001BC39 /* ViewController.xib */,
+				19AD75141EA0AB0E00488D1E /* Localizable.strings */,
+			);
+			name = "Support File";
+			sourceTree = "<group>";
+		};
+		C65241901EB9D2E000AFF6EC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C65241911EB9D2ED00AFF6EC /* WMessage.swift */,
+				C6C855DA1EC025E00023E51F /* RealmManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C674F1661E9D23B300B0B689 = {
+			isa = PBXGroup;
+			children = (
+				C674F1711E9D23B300B0B689 /* Welio */,
+				C674F1861E9D23B300B0B689 /* WelioTests */,
+				C674F1911E9D23B300B0B689 /* WelioUITests */,
+				C674F1701E9D23B300B0B689 /* Products */,
+				BF521F1CCDE76DADF1FE840A /* Pods */,
+				5C29FA9D1E68824A8C6A3FAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C674F1701E9D23B300B0B689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C674F16F1E9D23B300B0B689 /* Welio.app */,
+				C674F1831E9D23B300B0B689 /* WelioTests.xctest */,
+				C674F18E1E9D23B300B0B689 /* WelioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C674F1711E9D23B300B0B689 /* Welio */ = {
+			isa = PBXGroup;
+			children = (
+				C65241901EB9D2E000AFF6EC /* Data */,
+				C674F1B91E9D245B00B0B689 /* Helper */,
+				C674F1BA1E9D245B00B0B689 /* Library */,
+				C674F1C41E9D245B00B0B689 /* Model */,
+				C674F1C51E9D245B00B0B689 /* ViewController */,
+				C6221FAA1E9D271B003EADB4 /* Support File */,
+				191F7C661E9F524B001A7FB9 /* Font */,
+			);
+			path = Welio;
+			sourceTree = "<group>";
+		};
+		C674F1861E9D23B300B0B689 /* WelioTests */ = {
+			isa = PBXGroup;
+			children = (
+				C674F1871E9D23B300B0B689 /* WelioTests.swift */,
+				C674F1891E9D23B300B0B689 /* Info.plist */,
+			);
+			path = WelioTests;
+			sourceTree = "<group>";
+		};
+		C674F1911E9D23B300B0B689 /* WelioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C674F1921E9D23B300B0B689 /* WelioUITests.swift */,
+				C674F1941E9D23B300B0B689 /* Info.plist */,
+			);
+			path = WelioUITests;
+			sourceTree = "<group>";
+		};
+		C674F1B91E9D245B00B0B689 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				198AFE0D1E9DBA0B00EEAE3B /* Define.swift */,
+				198AFE0F1E9DBA0B00EEAE3B /* WebService.swift */,
+				198AFE0A1E9DB8E100EEAE3B /* Common.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C674F1BA1E9D245B00B0B689 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C6F684F11EC5C1DB00A98B1B /* SkypeForBusiness.framework */,
+				C6C856341EC052B30023E51F /* Toucan.swift */,
+				C6C855D71EC012EF0023E51F /* UIViewController+KeyboardAnimation.h */,
+				C6C855D81EC012EF0023E51F /* UIViewController+KeyboardAnimation.m */,
+				C6C855D11EC00CDA0023E51F /* KMPlaceholderTextView.swift */,
+				C6E087F41EAF84B400632FCA /* SkypeHelper */,
+				193F0A0D1EA4C4EA001DF2AE /* BottomRefreshControl */,
+				193F0A061EA467DB001DF2AE /* SideMenu */,
+				193F0A031EA46322001DF2AE /* MarqueeLabel */,
+				C674F1BB1E9D245B00B0B689 /* MaterialKit */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		C674F1BB1E9D245B00B0B689 /* MaterialKit */ = {
+			isa = PBXGroup;
+			children = (
+				C674F1BC1E9D245B00B0B689 /* MKButton.swift */,
+				C674F1BD1E9D245B00B0B689 /* MKColor.swift */,
+				C674F1BE1E9D245B00B0B689 /* MKImageView.swift */,
+				C674F1BF1E9D245B00B0B689 /* MKLabel.swift */,
+				C674F1C01E9D245B00B0B689 /* MKLayer.swift */,
+				C674F1C11E9D245B00B0B689 /* MKTableViewCell.swift */,
+				C674F1C21E9D245B00B0B689 /* MKTextField+Category.swift */,
+				C674F1C31E9D245B00B0B689 /* MKTextField.swift */,
+			);
+			path = MaterialKit;
+			sourceTree = "<group>";
+		};
+		C674F1C41E9D245B00B0B689 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19AD75171EA0D5AE00488D1E /* WPatient.swift */,
+				C6A68A8F1EA21F72006C4C3C /* WDoctor.swift */,
+				C6A68A911EA22500006C4C3C /* WClinic.swift */,
+				C6A68A931EA22941006C4C3C /* WAppointment.swift */,
+				197F02D41EBABE7A00C9F51F /* WCall.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C674F1C51E9D245B00B0B689 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				191F7C611E9F1B66001A7FB9 /* Cell */,
+				C674F1C61E9D245B00B0B689 /* HomeVC.swift */,
+				C674F1C71E9D245B00B0B689 /* ProfileSignUpVC.swift */,
+				C6221FAB1E9D3094003EADB4 /* AlreadyMailVC.swift */,
+				C6221FAD1E9D3649003EADB4 /* ChoosePhotoVC.swift */,
+				191398E21E9DD6FB0001BC39 /* NotificationVC.swift */,
+				1941B1031E9DE3DB00617B1B /* VerifyCodeVC.swift */,
+				195BEE461E9E07A8001BC7E4 /* ChangeMobileNumVC.swift */,
+				191F7C5B1E9F1785001A7FB9 /* TermsVC.swift */,
+				191F7C5D1E9F1794001A7FB9 /* SignInVC.swift */,
+				191F7C5F1E9F17B6001A7FB9 /* AppointmentVC.swift */,
+				191F7C7B1E9F5B11001A7FB9 /* AppointmentDetailVC.swift */,
+				19AD75091EA0671000488D1E /* CompleteCallVC.swift */,
+				193F0A0B1EA476C9001DF2AE /* SideMenuVC.swift */,
+				198F885E1EA5A6DF001EBAC5 /* CallVC.swift */,
+				198F88601EA5A6F0001EBAC5 /* VideoCallVC.swift */,
+				195E29AE1EB1D0BD00D850A3 /* PaypalVC.swift */,
+				195E29B01EB1D74D00D850A3 /* PaymentDetailVC.swift */,
+				195E29B21EB1E32100D850A3 /* AddPINVC.swift */,
+				195E29B41EB1E33700D850A3 /* ConfirmPINVC.swift */,
+				195E29B61EB1EF2900D850A3 /* EnterPINVC.swift */,
+				195E29B81EB1FB2A00D850A3 /* NewPassVC.swift */,
+				195E29BA1EB1FB7A00D850A3 /* CodeResetPassVC.swift */,
+				195E29BC1EB1FB8F00D850A3 /* PhoneResetPassVC.swift */,
+				199552CE1EB350CA00DC5C13 /* MyProfileVC.swift */,
+				199552D01EB350DA00DC5C13 /* EditProfileVC.swift */,
+				199552D21EB350E800DC5C13 /* SettingVC.swift */,
+				1904C16B1EB96D2C0093BC44 /* HistoryVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C6E087F41EAF84B400632FCA /* SkypeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				C6C855CE1EBFFFBD0023E51F /* ChatHandler.h */,
+				C6C855CF1EBFFFBD0023E51F /* ChatHandler.m */,
+				C6E087F81EAF867200632FCA /* Utils.swift */,
+				C6E087F51EAF852D00632FCA /* SfBConversationHelper.h */,
+				C6E087F61EAF852D00632FCA /* SfBConversationHelper.m */,
+			);
+			path = SkypeHelper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C674F16E1E9D23B300B0B689 /* Welio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C674F1971E9D23B300B0B689 /* Build configuration list for PBXNativeTarget "Welio" */;
+			buildPhases = (
+				EF1302294F5D8538BA43470D /* [CP] Check Pods Manifest.lock */,
+				C674F16B1E9D23B300B0B689 /* Sources */,
+				C674F16C1E9D23B300B0B689 /* Frameworks */,
+				C674F16D1E9D23B300B0B689 /* Resources */,
+				BF88DB4ECD9F63C88D605066 /* [CP] Embed Pods Frameworks */,
+				F23B486435224086A03C193C /* [CP] Copy Pods Resources */,
+				C6B0A00F1EA8532800DCB6E7 /* Embed Frameworks */,
+				C6EB7E251EAAE00B003BE614 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Welio;
+			productName = Welio;
+			productReference = C674F16F1E9D23B300B0B689 /* Welio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C674F1821E9D23B300B0B689 /* WelioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C674F19A1E9D23B300B0B689 /* Build configuration list for PBXNativeTarget "WelioTests" */;
+			buildPhases = (
+				C674F17F1E9D23B300B0B689 /* Sources */,
+				C674F1801E9D23B300B0B689 /* Frameworks */,
+				C674F1811E9D23B300B0B689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C674F1851E9D23B300B0B689 /* PBXTargetDependency */,
+			);
+			name = WelioTests;
+			productName = WelioTests;
+			productReference = C674F1831E9D23B300B0B689 /* WelioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C674F18D1E9D23B300B0B689 /* WelioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C674F19D1E9D23B300B0B689 /* Build configuration list for PBXNativeTarget "WelioUITests" */;
+			buildPhases = (
+				C674F18A1E9D23B300B0B689 /* Sources */,
+				C674F18B1E9D23B300B0B689 /* Frameworks */,
+				C674F18C1E9D23B300B0B689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C674F1901E9D23B300B0B689 /* PBXTargetDependency */,
+			);
+			name = WelioUITests;
+			productName = WelioUITests;
+			productReference = C674F18E1E9D23B300B0B689 /* WelioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C674F1671E9D23B300B0B689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SDC;
+				TargetAttributes = {
+					C674F16E1E9D23B300B0B689 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = LU8648S7Z4;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					C674F1821E9D23B300B0B689 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FGL34EHA3Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C674F16E1E9D23B300B0B689;
+					};
+					C674F18D1E9D23B300B0B689 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FGL34EHA3Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C674F16E1E9D23B300B0B689;
+					};
+				};
+			};
+			buildConfigurationList = C674F16A1E9D23B300B0B689 /* Build configuration list for PBXProject "Welio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				vi,
+			);
+			mainGroup = C674F1661E9D23B300B0B689;
+			productRefGroup = C674F1701E9D23B300B0B689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C674F16E1E9D23B300B0B689 /* Welio */,
+				C674F1821E9D23B300B0B689 /* WelioTests */,
+				C674F18D1E9D23B300B0B689 /* WelioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C674F16D1E9D23B300B0B689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				191F7C751E9F524B001A7FB9 /* OpenSans-Italic.ttf in Resources */,
+				191F7C721E9F524B001A7FB9 /* OpenSans-BoldItalic.ttf in Resources */,
+				C674F17D1E9D23B300B0B689 /* LaunchScreen.storyboard in Resources */,
+				191F7C791E9F524B001A7FB9 /* OpenSans-Semibold.ttf in Resources */,
+				191F7C731E9F524B001A7FB9 /* OpenSans-ExtraBold.ttf in Resources */,
+				C674F17A1E9D23B300B0B689 /* Assets.xcassets in Resources */,
+				191F7C771E9F524B001A7FB9 /* OpenSans-LightItalic.ttf in Resources */,
+				191398E11E9DD3100001BC39 /* ViewController.xib in Resources */,
+				191F7C711E9F524B001A7FB9 /* OpenSans-Bold.ttf in Resources */,
+				C674F1781E9D23B300B0B689 /* Main.storyboard in Resources */,
+				19AD75121EA0AB0E00488D1E /* Localizable.strings in Resources */,
+				191F7C7A1E9F524B001A7FB9 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				191F7C761E9F524B001A7FB9 /* OpenSans-Light.ttf in Resources */,
+				191F7C781E9F524B001A7FB9 /* OpenSans-Regular.ttf in Resources */,
+				191F7C741E9F524B001A7FB9 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C674F1811E9D23B300B0B689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C674F18C1E9D23B300B0B689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF88DB4ECD9F63C88D605066 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Welio/Pods-Welio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EB7E251EAAE00B003BE614 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 64a58fe640a606c102a43aa4df62b224b9015beb 13481d495b4a91c1c24b57e709de89578d0cbd0d199b0406a1db9f93939b20cb";
+		};
+		EF1302294F5D8538BA43470D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F23B486435224086A03C193C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Welio/Pods-Welio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C674F16B1E9D23B300B0B689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C674F1CF1E9D245B00B0B689 /* MKTextField.swift in Sources */,
+				C674F1D01E9D245B00B0B689 /* HomeVC.swift in Sources */,
+				198AFE111E9DBA0B00EEAE3B /* Define.swift in Sources */,
+				19AD750A1EA0671000488D1E /* CompleteCallVC.swift in Sources */,
+				C674F1C91E9D245B00B0B689 /* MKColor.swift in Sources */,
+				195E29AF1EB1D0BD00D850A3 /* PaypalVC.swift in Sources */,
+				C6C855D01EBFFFBD0023E51F /* ChatHandler.m in Sources */,
+				C6A68A921EA22500006C4C3C /* WClinic.swift in Sources */,
+				197F02D51EBABE7A00C9F51F /* WCall.swift in Sources */,
+				193F0A141EA4C50D001DF2AE /* UIScrollView+BottomRefreshControl.m in Sources */,
+				191F7C631E9F1B84001A7FB9 /* CellAppointment.swift in Sources */,
+				195E29B91EB1FB2A00D850A3 /* NewPassVC.swift in Sources */,
+				199552D31EB350E800DC5C13 /* SettingVC.swift in Sources */,
+				199552CF1EB350CA00DC5C13 /* MyProfileVC.swift in Sources */,
+				198F885F1EA5A6DF001EBAC5 /* CallVC.swift in Sources */,
+				C674F1CC1E9D245B00B0B689 /* MKLayer.swift in Sources */,
+				C6C856351EC052B30023E51F /* Toucan.swift in Sources */,
+				C6A68A941EA22941006C4C3C /* WAppointment.swift in Sources */,
+				C6C855D21EC00CDA0023E51F /* KMPlaceholderTextView.swift in Sources */,
+				191398E31E9DD6FB0001BC39 /* NotificationVC.swift in Sources */,
+				C674F1731E9D23B300B0B689 /* AppDelegate.swift in Sources */,
+				C6E087F91EAF867200632FCA /* Utils.swift in Sources */,
+				C674F1CA1E9D245B00B0B689 /* MKImageView.swift in Sources */,
+				C6A68A901EA21F72006C4C3C /* WDoctor.swift in Sources */,
+				191F7C5C1E9F1785001A7FB9 /* TermsVC.swift in Sources */,
+				199552D11EB350DA00DC5C13 /* EditProfileVC.swift in Sources */,
+				195E29B31EB1E32100D850A3 /* AddPINVC.swift in Sources */,
+				C674F1D11E9D245B00B0B689 /* ProfileSignUpVC.swift in Sources */,
+				C674F1C81E9D245B00B0B689 /* MKButton.swift in Sources */,
+				191F7C5E1E9F1794001A7FB9 /* SignInVC.swift in Sources */,
+				198AFE131E9DBA0B00EEAE3B /* WebService.swift in Sources */,
+				C6221FAC1E9D3094003EADB4 /* AlreadyMailVC.swift in Sources */,
+				191F7C601E9F17B6001A7FB9 /* AppointmentVC.swift in Sources */,
+				1941B1041E9DE3DB00617B1B /* VerifyCodeVC.swift in Sources */,
+				C65241921EB9D2ED00AFF6EC /* WMessage.swift in Sources */,
+				198AFE0B1E9DB8E100EEAE3B /* Common.swift in Sources */,
+				195E29B11EB1D74D00D850A3 /* PaymentDetailVC.swift in Sources */,
+				198F88611EA5A6F0001EBAC5 /* VideoCallVC.swift in Sources */,
+				19905E1F1EB2D13D009206EB /* CellMenu.swift in Sources */,
+				C674F1CD1E9D245B00B0B689 /* MKTableViewCell.swift in Sources */,
+				C674F1CB1E9D245B00B0B689 /* MKLabel.swift in Sources */,
+				195BEE471E9E07A8001BC7E4 /* ChangeMobileNumVC.swift in Sources */,
+				1904C16C1EB96D2C0093BC44 /* HistoryVC.swift in Sources */,
+				199552CB1EB328A200DC5C13 /* CellChat.swift in Sources */,
+				C6C855DB1EC025E00023E51F /* RealmManager.swift in Sources */,
+				C674F1CE1E9D245B00B0B689 /* MKTextField+Category.swift in Sources */,
+				195E29BB1EB1FB7A00D850A3 /* CodeResetPassVC.swift in Sources */,
+				19AD75181EA0D5AE00488D1E /* WPatient.swift in Sources */,
+				193F0A051EA46322001DF2AE /* MarqueeLabel.swift in Sources */,
+				C6221FAE1E9D3649003EADB4 /* ChoosePhotoVC.swift in Sources */,
+				195E29BD1EB1FB8F00D850A3 /* PhoneResetPassVC.swift in Sources */,
+				C6C855D91EC012EF0023E51F /* UIViewController+KeyboardAnimation.m in Sources */,
+				199552CD1EB34B8600DC5C13 /* CellCallChat.swift in Sources */,
+				C6E087F71EAF852D00632FCA /* SfBConversationHelper.m in Sources */,
+				193F0A081EA467DB001DF2AE /* SideMenuRootController.swift in Sources */,
+				195E29B51EB1E33700D850A3 /* ConfirmPINVC.swift in Sources */,
+				195E29B71EB1EF2900D850A3 /* EnterPINVC.swift in Sources */,
+				193F0A0C1EA476C9001DF2AE /* SideMenuVC.swift in Sources */,
+				191F7C7C1E9F5B11001A7FB9 /* AppointmentDetailVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C674F17F1E9D23B300B0B689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C674F1881E9D23B300B0B689 /* WelioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C674F18A1E9D23B300B0B689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C674F1931E9D23B300B0B689 /* WelioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C674F1851E9D23B300B0B689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C674F16E1E9D23B300B0B689 /* Welio */;
+			targetProxy = C674F1841E9D23B300B0B689 /* PBXContainerItemProxy */;
+		};
+		C674F1901E9D23B300B0B689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C674F16E1E9D23B300B0B689 /* Welio */;
+			targetProxy = C674F18F1E9D23B300B0B689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19AD75141EA0AB0E00488D1E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19AD75131EA0AB0E00488D1E /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		C674F1761E9D23B300B0B689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C674F1771E9D23B300B0B689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C674F17B1E9D23B300B0B689 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C674F17C1E9D23B300B0B689 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C674F1951E9D23B300B0B689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C674F1961E9D23B300B0B689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C674F1981E9D23B300B0B689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37A2D9C967DA74B479D931A5 /* Pods-Welio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LU8648S7Z4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Welio/Library",
+					"$(PROJECT_DIR)/Welio/Library/AppSDKiOSSimulator",
+					"$(PROJECT_DIR)/Welio/Library/AppSDKiOS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Welio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welio.welio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Welio/Library/BottomRefreshControl/Welio-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C674F1991E9D23B300B0B689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5623BFE5F3E1B938B9D9B35B /* Pods-Welio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = LU8648S7Z4;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Welio/Library",
+					"$(PROJECT_DIR)/Welio/Library/AppSDKiOSSimulator",
+					"$(PROJECT_DIR)/Welio/Library/AppSDKiOS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = Welio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.welio.welio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Welio/Library/BottomRefreshControl/Welio-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C674F19B1E9D23B300B0B689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FGL34EHA3Z;
+				INFOPLIST_FILE = WelioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdc.WelioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Welio.app/Welio";
+			};
+			name = Debug;
+		};
+		C674F19C1E9D23B300B0B689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FGL34EHA3Z;
+				INFOPLIST_FILE = WelioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdc.WelioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Welio.app/Welio";
+			};
+			name = Release;
+		};
+		C674F19E1E9D23B300B0B689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FGL34EHA3Z;
+				INFOPLIST_FILE = WelioUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdc.WelioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Welio;
+			};
+			name = Debug;
+		};
+		C674F19F1E9D23B300B0B689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = FGL34EHA3Z;
+				INFOPLIST_FILE = WelioUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdc.WelioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Welio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C674F16A1E9D23B300B0B689 /* Build configuration list for PBXProject "Welio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C674F1951E9D23B300B0B689 /* Debug */,
+				C674F1961E9D23B300B0B689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C674F1971E9D23B300B0B689 /* Build configuration list for PBXNativeTarget "Welio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C674F1981E9D23B300B0B689 /* Debug */,
+				C674F1991E9D23B300B0B689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C674F19A1E9D23B300B0B689 /* Build configuration list for PBXNativeTarget "WelioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C674F19B1E9D23B300B0B689 /* Debug */,
+				C674F19C1E9D23B300B0B689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C674F19D1E9D23B300B0B689 /* Build configuration list for PBXNativeTarget "WelioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C674F19E1E9D23B300B0B689 /* Debug */,
+				C674F19F1E9D23B300B0B689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C674F1671E9D23B300B0B689 /* Project object */;
+}

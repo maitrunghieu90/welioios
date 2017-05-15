@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Cosmos (9.0.0)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - Kingfisher (3.6.2)
+  - KRProgressHUD (2.2.2)
+  - ReachabilitySwift (3)
+  - Realm (2.5.1):
+    - Realm/Headers (= 2.5.1)
+  - Realm/Headers (2.5.1)
+  - RealmSwift (2.5.1):
+    - Realm (= 2.5.1)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Cosmos
+  - Crashlytics
+  - Fabric
+  - Kingfisher (~> 3.0)
+  - KRProgressHUD
+  - ReachabilitySwift
+  - RealmSwift
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Cosmos: 33eee62b2a0418452aef470f711f83c3ea061b7b
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  Kingfisher: 2c94e72c6830622c71d06adf4ea024c37d316830
+  KRProgressHUD: ee25f70e274d1933b2ad0c8583a8552a349ce85d
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  Realm: 32f86104d37c8521f864d4274050b38ba6190733
+  RealmSwift: f719e7511c902b8908593e8f143f59e47931bdb6
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: 82bba09f5793a25f9eecb6369c859199af369cd0
+
+COCOAPODS: 1.1.1
